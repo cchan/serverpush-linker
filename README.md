@@ -1,4 +1,5 @@
 # serverpush-linker
+[![Build Status](https://travis-ci.org/cchan/serverpush-linker.svg?branch=master)](https://travis-ci.org/cchan/serverpush-linker)
 
 Express middleware to automatically add Link: headers for upstream HTTP/2-supporting proxies to server-push.
 
