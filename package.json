@@ -1,0 +1,36 @@
+{
+  "name": "serverpush-linker",
+  "version": "1.0.0",
+  "description": "Express middleware to automatically add Link: headers for upstream HTTP/2-supporting proxies to server-push.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchan/serverpush-linker.git"
+  },
+  "keywords": [
+    "HTTP/2",
+    "HTTP2",
+    "server",
+    "push",
+    "link",
+    "headers",
+    "cache",
+    "middleware",
+    "express"
+  ],
+  "author": "Clive Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cchan/serverpush-linker/issues"
+  },
+  "homepage": "https://github.com/cchan/serverpush-linker#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.10.1"
+  }
+}
