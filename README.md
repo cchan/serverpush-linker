@@ -11,8 +11,12 @@ This module provides an automatic way to server-push all assets.
 ## How to use
 `npm install serverpush-linker`
 
-Then add ```js
+Then add
+
+```
 const spl = require('serverpush-linker')
 
 app.use(spl())
-``` before any handlers or middleware that might write any body content into the response.
+```
+
+before any handlers or middleware that might write any body content into the response.

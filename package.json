@@ -1,6 +1,6 @@
 {
   "name": "serverpush-linker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware to automatically add Link: headers for upstream HTTP/2-supporting proxies to server-push.",
   "main": "index.js",
   "scripts": {
